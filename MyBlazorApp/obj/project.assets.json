@@ -422,7 +422,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.4": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -914,7 +914,7 @@
           }
         }
       },
-      "Microsoft.NET.ILLink.Tasks/8.0.4": {
+      "Microsoft.NET.ILLink.Tasks/8.0.6": {
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -1791,10 +1791,10 @@
         "microsoft.jsinterop.webassembly.nuspec"
       ]
     },
-    "Microsoft.NET.ILLink.Tasks/8.0.4": {
-      "sha512": "PZb5nfQ+U19nhnmnR9T1jw+LTmozhuG2eeuzuW5A7DqxD/UXW2ucjmNJqnqOuh8rdPzM3MQXoF8AfFCedJdCUw==",
+    "Microsoft.NET.ILLink.Tasks/8.0.6": {
+      "sha512": "E+lDylsTeP4ZiDmnEkiJ5wobnGaIJzFhOgZppznJCb69UZgbh6G3cfv1pnLDLLBx6JAgl0kAlnINDeT3uCuczQ==",
       "type": "package",
-      "path": "microsoft.net.illink.tasks/8.0.4",
+      "path": "microsoft.net.illink.tasks/8.0.6",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
@@ -1808,7 +1808,7 @@
         "build/Microsoft.NET.ILLink.Analyzers.props",
         "build/Microsoft.NET.ILLink.Tasks.props",
         "build/Microsoft.NET.ILLink.targets",
-        "microsoft.net.illink.tasks.8.0.4.nupkg.sha512",
+        "microsoft.net.illink.tasks.8.0.6.nupkg.sha512",
         "microsoft.net.illink.tasks.nuspec",
         "tools/net472/ILLink.Tasks.dll",
         "tools/net472/ILLink.Tasks.dll.config",
@@ -2054,29 +2054,37 @@
     "net8.0": [
       "Microsoft.AspNetCore.Components.WebAssembly >= 8.0.4",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 8.0.4",
-      "Microsoft.NET.ILLink.Tasks >= 8.0.4",
+      "Microsoft.NET.ILLink.Tasks >= 8.0.6",
       "Microsoft.NET.Sdk.WebAssembly.Pack >= 8.0.6"
     ]
   },
   "packageFolders": {
-    "/Users/jornk/.nuget/packages/": {}
+    "C:\\Users\\mahaffey\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/jornk/Source/developerjohannes.github.io/MyBlazorApp/MyBlazorApp.csproj",
+      "projectUniqueName": "C:\\Users\\mahaffey\\johannes\\MyBlazorApp\\MyBlazorApp.csproj",
       "projectName": "MyBlazorApp",
-      "projectPath": "/Users/jornk/Source/developerjohannes.github.io/MyBlazorApp/MyBlazorApp.csproj",
-      "packagesPath": "/Users/jornk/.nuget/packages/",
-      "outputPath": "/Users/jornk/Source/developerjohannes.github.io/MyBlazorApp/obj/",
+      "projectPath": "C:\\Users\\mahaffey\\johannes\\MyBlazorApp\\MyBlazorApp.csproj",
+      "packagesPath": "C:\\Users\\mahaffey\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mahaffey\\johannes\\MyBlazorApp\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "/Users/jornk/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\mahaffey\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -2089,6 +2097,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -2107,7 +2120,7 @@
           "Microsoft.NET.ILLink.Tasks": {
             "suppressParent": "All",
             "target": "Package",
-            "version": "[8.0.4, )",
+            "version": "[8.0.6, )",
             "autoReferenced": true
           },
           "Microsoft.NET.Sdk.WebAssembly.Pack": {
@@ -2139,7 +2152,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/Cellar/dotnet/8.0.4/libexec/sdk/8.0.104/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
       }
     },
     "runtimes": {
