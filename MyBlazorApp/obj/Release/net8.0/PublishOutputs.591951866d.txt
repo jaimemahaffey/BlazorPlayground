@@ -1,1 +1,0 @@
-/Users/jornk/Source/developerjohannes.github.io/MyBlazorApp/output/web.config
