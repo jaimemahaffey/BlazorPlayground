@@ -73,11 +73,19 @@ jobs:
       with:
         dotnet-version: 8.0.x
         
-    # Execute all unit tests in the solution
+   
     - name: Restore App
       run: dotnet restore
 
-    - name: Dotnet Build
-      run: dotnet build
+    - name: Publish App
+      run: dotnet publish -c Release -o ../dist/
+
+    - name: Deploy to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ../dist/wwwroot/  # Directory with your static site files
+          publish_branch: gh-pages
+          allow_empty_commit: true 
       
     
