@@ -75,10 +75,6 @@ jobs:
       uses: actions/setup-dotnet@v4
       with:
         dotnet-version: 8.0.x
-        
-   
-    - name: Restore App
-      run: dotnet restore
 
     - name: Publish App
       run: dotnet publish -c Release -o ../dist/
