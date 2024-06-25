@@ -85,7 +85,7 @@ jobs:
       with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ../dist/wwwroot/  # Directory with your static site files
-          publish_branch: main 
+          publish_branch: gh-pages 
           allow_empty_commit: true 
       
     
