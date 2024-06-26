@@ -77,7 +77,7 @@ jobs:
         dotnet-version: 8.0.x
 
     - name: Publish App
-      run: dotnet publish ${{ProjectPath}} -c Release -o /dist/
+      run: dotnet publish ${{env.ProjectPath}} -c Release -o /dist/
 
     - name: Deploy to GitHub Pages
       uses: peaceiris/actions-gh-pages@v3
