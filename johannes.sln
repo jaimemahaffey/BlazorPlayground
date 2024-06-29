@@ -7,14 +7,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyBlazorApp", "MyBlazorApp\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{929E5F74-BA4F-4052-9019-8202D09EEB9A}"
 	ProjectSection(SolutionItems) = preProject
-		.github\.idea\.idea..github.dir\.idea\.gitignore = .github\.idea\.idea..github.dir\.idea\.gitignore
-		.github\.idea\.idea..github.dir\.idea\encodings.xml = .github\.idea\.idea..github.dir\.idea\encodings.xml
-		.github\.idea\.idea..github.dir\.idea\indexLayout.xml = .github\.idea\.idea..github.dir\.idea\indexLayout.xml
-		.github\.idea\.idea..github.dir\.idea\projectSettingsUpdater.xml = .github\.idea\.idea..github.dir\.idea\projectSettingsUpdater.xml
-		.github\.idea\.idea..github.dir\.idea\workspace.xml = .github\.idea\.idea..github.dir\.idea\workspace.xml
 		.github\workflows\dotnet-blazor.yml = .github\workflows\dotnet-blazor.yml
 		.gitignore = .gitignore
 		.nojekyll = .nojekyll
+		.github\workflows\static.yml = .github\workflows\static.yml
 	EndProjectSection
 EndProject
 Global
