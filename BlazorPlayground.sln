@@ -10,7 +10,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{929E5F74-B
 		.github\workflows\static.yml = .github\workflows\static.yml
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorPlayground", "App1\BlazorPlayground\BlazorPlayground.csproj", "{4C9EF815-0650-4BBA-96B9-9CB3627D84C9}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorPlayground", "BlazorPlayground\BlazorPlayground.csproj", "{4C9EF815-0650-4BBA-96B9-9CB3627D84C9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
