@@ -10,16 +10,17 @@ builder.RootComponents.Add<HeadOutlet>("head::after");
 
 builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
-AddBlazorise(builder.Services);
+AddBlazorise(builder.Services, builder.Configuration);
 
 await builder.Build().RunAsync();
 
 
-void AddBlazorise(IServiceCollection services)
+void AddBlazorise(IServiceCollection services, IConfiguration configuration)
 {
     services
         .AddBlazorise();
     services
+        .AddSingleton(configuration)
         .AddMaterialProviders()
         .AddMaterialIcons();
 }

@@ -1,7 +1,14 @@
-﻿<Blazorise.ThemeProvider Theme="@theme">
+﻿
+
+@inject IConfiguration Config
+
+<Blazorise.ThemeProvider Theme="@theme">
+    <HeadContent>
+        <base href="@(Config.GetValue<string>("AppBasePath"))" />
+    </HeadContent>
     <Router AppAssembly="typeof(App).Assembly">
         <Found Context="routeData">
-            <RouteView RouteData="routeData" DefaultLayout="typeof(BlazorPlayground.Layouts.MainLayout)"/>
+            <RouteView RouteData="routeData" DefaultLayout="typeof(BlazorPlayground.Layouts.MainLayout)" />
         </Found>
         <NotFound>
             <p>Sorry, there's nothing at this address.</p>
@@ -10,6 +17,7 @@
     <MessageProvider/>
     <PageProgressProvider/>
 </Blazorise.ThemeProvider>
+
 
 @code {
 
