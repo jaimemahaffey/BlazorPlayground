@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlazorPlayground", "BlazorPlayground\BlazorPlayground.csproj", "{ECAEAD2E-A198-4172-8F6D-060CDC27906D}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{929E5F74-BA4F-4052-9019-8202D09EEB9A}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
@@ -12,16 +10,18 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Misc", "Misc", "{929E5F74-B
 		.github\workflows\static.yml = .github\workflows\static.yml
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorPlayground", "App1\BlazorPlayground\BlazorPlayground.csproj", "{4C9EF815-0650-4BBA-96B9-9CB3627D84C9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{ECAEAD2E-A198-4172-8F6D-060CDC27906D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{ECAEAD2E-A198-4172-8F6D-060CDC27906D}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{ECAEAD2E-A198-4172-8F6D-060CDC27906D}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{ECAEAD2E-A198-4172-8F6D-060CDC27906D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C9EF815-0650-4BBA-96B9-9CB3627D84C9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C9EF815-0650-4BBA-96B9-9CB3627D84C9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C9EF815-0650-4BBA-96B9-9CB3627D84C9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C9EF815-0650-4BBA-96B9-9CB3627D84C9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
