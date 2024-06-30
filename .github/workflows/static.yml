@@ -33,7 +33,7 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v5
       - name: Publish App
-        run: dotnet publish MyBlazorApp/MyBlazorApp.csproj -c Release -o ../dist
+        run: dotnet publish BlazorPlayground/BlazorPlayground.csproj -c Release -o ../dist
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
